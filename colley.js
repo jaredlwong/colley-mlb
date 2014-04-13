@@ -176,6 +176,9 @@ function main() {
 			i -= 1;
 		}
 	}
+	var colley_rankings = calculate_colley_rankings(running_records);
+	colley_rankings.splice(0, 0, udates[cdi]);
+	colley_data.push(colley_rankings);
 
 	var teams_copy = teams.slice(0);
 	teams_copy.splice(0, 0, "");
