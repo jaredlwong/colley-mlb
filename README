@@ -1,0 +1,3 @@
+espn.js:
+	Scrape http://espn.go.com/mlb/schedule. Just copy and paste into a
+	browser console.
